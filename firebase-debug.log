@@ -1,0 +1,22 @@
+[debug] [2022-06-09T17:47:10.539Z] ----------------------------------------------------------------------
+[debug] [2022-06-09T17:47:10.541Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mactu\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-06-09T17:47:10.541Z] CLI Version:   11.0.1
+[debug] [2022-06-09T17:47:10.541Z] Platform:      win32
+[debug] [2022-06-09T17:47:10.541Z] Node Version:  v14.18.1
+[debug] [2022-06-09T17:47:10.545Z] Time:          Thu Jun 09 2022 23:47:10 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-06-09T17:47:10.546Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-09T17:47:10.550Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-06-09T17:47:10.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-09T17:47:10.576Z] > authorizing via signed-in user (mactushar100@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\akash_portfolio\akash-portfolio-frontend
+
