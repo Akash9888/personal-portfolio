@@ -15,7 +15,7 @@ const Navigation = () => {
     };
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-red-300">
                 <div className="navbar-start">
                     <a className="btn btn-ghost normal-case text-xl">AKASH</a>
                 </div>
