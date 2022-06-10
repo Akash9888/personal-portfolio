@@ -5,7 +5,7 @@ const Hero = () => {
         <section class="hero min-h-screen  ">
             <div class="hero-content text-center flex-col lg:flex-row lg:text-left">
                 <div class="avatar">
-                    <div class="w-[250px] lg:w-[350px]  rounded-full border-[12px] border-[#758283]">
+                    <div class="w-[250px] lg:w-[350px]  rounded-full border-[12px] border-[#484d4f]">
                         <img
                             src="https://i.ibb.co/CtcHV3Q/PXL-20211201-122745748-PORTRAIT-2.jpg"
                             alt="PXL-20211201-122745748-PORTRAIT-2"

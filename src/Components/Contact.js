@@ -46,8 +46,11 @@ const Contact = () => {
     };
 
     return (
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-50 text-white">
-            <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+        <section className="py-6 dark:bg-gray-800 dark:text-gray-50 text-white px-5">
+            <h1 className="text-2xl font-bold text-left text-white lg:mb-6 ">
+                Contact
+            </h1>
+            <div className="grid  grid-cols-1   lg:px-8 md:grid-cols-2 md:divide-x">
                 <div className="py-6 md:py-0 md:px-6">
                     <h1 className="text-4xl font-bold">Get in touch</h1>
                     <p className="pt-2 pb-4">
