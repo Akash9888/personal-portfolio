@@ -1,18 +1,34 @@
-import React from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
+    const [openMenu, setOpenMenu] = useState(true);
+    const menuState = () => {
+        // console.log("before clicked");
+        // console.log(openMenu);
+        // setOpenMenu(!openMenu);
+        // console.log("after clicked");
+        // console.log(openMenu);
+        {
+            openMenu ? setOpenMenu(false) : setOpenMenu(true);
+        }
+    };
     return (
         <div>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <div className="navbar bg-base-100">
+                <div className="navbar-start">
+                    <a className="btn btn-ghost normal-case text-xl">AKASH</a>
+                </div>
+                <div className="navbar-end ">
+                    <div className="dropdown dropdown-end lg:hidden">
+                        <label tabindex="0" className="btn btn-ghost">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="h-5 w-5"
+                                className="h-5 w-5"
                                 fill="none"
                                 viewBox="0 0 24 24"
-                                stroke="currentColor">
+                                stroke="currentColor"
+                                onClick={menuState}>
                                 <path
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
@@ -23,71 +39,45 @@ const Navigation = () => {
                         </label>
                         <ul
                             tabindex="0"
-                            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            className={`${
+                                !openMenu ? "" : "hidden"
+                            }  mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52`}>
                             <li>
-                                <a>Item 1</a>
+                                <Link to="/">Home</Link>
                             </li>
-                            <li tabindex="0">
-                                <a class="justify-between">
-                                    Parent
-                                    <svg
-                                        class="fill-current"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="24"
-                                        height="24"
-                                        viewBox="0 0 24 24">
-                                        <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                                    </svg>
-                                </a>
-                                <ul class="p-2">
-                                    <li>
-                                        <a>Submenu 1</a>
-                                    </li>
-                                    <li>
-                                        <a>Submenu 2</a>
-                                    </li>
-                                </ul>
-                            </li>
+
                             <li>
-                                <a>Item 3</a>
+                                <Link to="/about">About</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/portfolio">Portfolio</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal p-0">
-                        <li>
-                            <a>Item 1</a>
-                        </li>
-                        <li tabindex="0">
-                            <a>
-                                Parent
-                                <svg
-                                    class="fill-current"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="20"
-                                    height="20"
-                                    viewBox="0 0 24 24">
-                                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                                </svg>
-                            </a>
-                            <ul class="p-2">
-                                <li>
-                                    <a>Submenu 1</a>
-                                </li>
-                                <li>
-                                    <a>Submenu 2</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a>Item 3</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    <a class="btn">Get started</a>
+                    <div className="hidden lg:flex">
+                        <ul className="menu menu-horizontal p-0">
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/about">About</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/portfolio">Portfolio</Link>
+                            </li>
+
+                            <li>
+                                <Link to="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
