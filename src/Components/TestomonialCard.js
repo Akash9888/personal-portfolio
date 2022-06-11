@@ -2,7 +2,11 @@ import React from "react";
 
 const TestomonialCard = () => {
     return (
-        <div class="card w-full lg:w-96 p-6 shadow-xl text-white text-justify bg-[#2d3538] ">
+        <div
+            class="card w-full lg:w-96 p-6 shadow-xl text-white text-justify bg-[#2d3538] "
+            data-aos="flip-left"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             {/* <div className="p-6 rounded shadow-md "> */}
             <p>
                 Sit wisi sapientem ut, pri civibus temporibus voluptatibus et,

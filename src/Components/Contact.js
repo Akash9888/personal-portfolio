@@ -46,7 +46,11 @@ const Contact = () => {
     };
 
     return (
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-50 text-white px-5">
+        <section
+            className="py-6 dark:bg-gray-800 dark:text-gray-50 text-white px-5"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <h1 className="text-2xl font-bold text-left text-white lg:mb-6 ">
                 Contact
             </h1>
@@ -127,6 +131,7 @@ const Contact = () => {
                         <textarea
                             rows="3"
                             name="message"
+                            placeholder="Enter your message here.."
                             {...register("message")}
                             className="block w-full p-2 border rounded-md bg-transparent  focus:ring focus:ring-opacity-75 focus:ring-violet-400"
                             spellcheck="false"></textarea>
