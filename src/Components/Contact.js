@@ -46,17 +46,20 @@ const Contact = () => {
     };
 
     return (
-        <section
-            className="py-6 dark:bg-gray-800 dark:text-gray-50 text-white px-5"
-            data-aos="zoom-in"
-            data-aos-easing="linear"
-            data-aos-duration="1500">
-            <h1 className="text-2xl font-bold text-left text-white lg:mb-6 ">
+        <section className="py-6  text-white px-5 mt-10">
+            <h4 className="text-sm uppercase  text-left text-white  ">
                 Contact
+            </h4>
+            <h1 className="text-xl lg:text-2xl uppercase font-bold text-left text-white mb-6 ">
+                Get In Touch
             </h1>
-            <div className="grid  grid-cols-1   lg:px-8 md:grid-cols-2 md:divide-x">
+            <div
+                className="grid  grid-cols-1   lg:px-8 md:grid-cols-2 md:divide-x"
+                data-aos="zoom-in"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 <div className="py-6 md:py-0 md:px-6">
-                    <h1 className="text-4xl font-bold">Get in touch</h1>
+                    <h1 className="text-4xl font-bold">Say Hello!</h1>
                     <p className="pt-2 pb-4">
                         Fill in the form to start a conversation
                     </p>

@@ -1,0 +1,26 @@
+[
+    {
+        "index": 0,
+        "picture": "https://i.ibb.co/yh6MnQF/tools-tory.png",
+        "link": "https://tools-tory.web.app/",
+        "name": "Tools Tory",
+        "about": "Tools Tory is a product manufacturer company website, where a customers can find and buy his/her products directly",
+        "tags": ["React", "Node", "MongoDB", "Express", "Stripe", "Tailwind"]
+    },
+    {
+        "index": 1,
+        "picture": "https://i.ibb.co/bLVyPwH/jadoo.png",
+        "link": "https://akash9888.github.io/Travel-Site/",
+        "name": "Jadoo",
+        "about": "Jadoo is a multi national travel agency. Jadoo offers several benifits to travelers like hotel and aeroplane ticket booking, tour guide etc.",
+        "tags": ["Html", "CSS"]
+    },
+    {
+        "index": 2,
+        "picture": "https://i.ibb.co/bPZnB0C/ghudam.png",
+        "link": "https://ghudamghor.firebaseapp.com/",
+        "name": "Ghudam Ghor",
+        "about": "Gudam Ghor is special website for warehouse management. Here warehouse authority can easily & smartly handle warehouse by using warehouse website.",
+        "tags": ["React", "Node", "MongoDB", "Express", "Stripe", "Flow bite"]
+    }
+]

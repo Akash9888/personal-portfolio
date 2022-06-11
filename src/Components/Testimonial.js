@@ -21,9 +21,12 @@ const Testimonial = () => {
         },
     };
     return (
-        <div className="p-5 ">
-            <h1 className="text-2xl font-bold text-left text-white mb-6 ">
+        <section className="p-5 mt-10">
+            <h4 className="text-sm uppercase  text-left text-white  ">
                 Testimonials
+            </h4>
+            <h1 className="text-xl lg:text-2xl uppercase font-bold text-left text-white mb-6 ">
+                Some Feedback
             </h1>
             <Carousel
                 // swipeable={false}
@@ -51,7 +54,7 @@ const Testimonial = () => {
                 <TestomonialCard />
                 <TestomonialCard />
             </Carousel>
-        </div>
+        </section>
     );
 };
 

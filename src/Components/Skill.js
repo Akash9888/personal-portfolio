@@ -2,9 +2,12 @@ import React from "react";
 
 const Skill = () => {
     return (
-        <section className="p-6 dark:bg-gray-800 dark:text-gray-100">
-            <h1 className="text-2xl font-bold text-left text-white mb-6 ">
-                Skill Sets
+        <section className="p-6 mt-10">
+            <h4 className="text-sm uppercase  text-left text-white  ">
+                Skills
+            </h4>
+            <h1 className="text-xl lg:text-2xl uppercase font-bold text-left text-white mb-6 ">
+                SkillS I have
             </h1>
             <div class="grid grid-cols-2 lg:grid-cols-5 gap-4">
                 <div
@@ -75,11 +78,11 @@ const Skill = () => {
                     data-aos-duration="1500">
                     <div class="card-body m-auto my-0">
                         <img
-                            src="https://i.ibb.co/m6L3TzL/css-3.png"
-                            alt="css-3"
+                            alt="svgImg"
                             width="80px"
                             height="80px"
                             border="0"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBmaWxsPSIjZmY4ZjAwIiBkPSJNOCwzN0wyMy4yMzQsOC40MzZjMC4zMjEtMC42MDIsMS4xODktMC41OTEsMS40OTQsMC4wMkwzMCwxOUw4LDM3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmEwMDAiIGQ9Ik04LDM2Ljk5Mmw1LjU0Ni0zNC4xOTljMC4xNDUtMC44OTUsMS4zNDctMS4wODksMS43NjctMC4yODVMMjYsMjIuOTkyTDgsMzYuOTkyeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZjZmMDAiIGQ9Ik04LjAwOCAzNi45ODZMOC4yMDggMzYuODI5IDI1LjczNyAyMi40ODggMjAuNzkzIDEzLjAxMnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZjNDAwIiBkPSJNOCwzN2wyNi42NjYtMjUuNzEzYzAuNTU5LTAuNTM5LDEuNDkyLTAuMjIxLDEuNjA2LDAuNTQ3TDQwLDM3bC0xNSw4Ljc0MyBjLTAuNjA5LDAuMzQyLTEuMzUyLDAuMzQyLTEuOTYxLDBMOCwzN3oiPjwvcGF0aD48L3N2Zz4="
                         />
                     </div>
                 </div>
