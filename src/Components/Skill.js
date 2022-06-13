@@ -2,7 +2,7 @@ import React from "react";
 
 const Skill = () => {
     return (
-        <section className="p-6 mt-10">
+        <section id="skills" className="p-6 mt-10">
             <h4 className="text-sm uppercase  text-left text-white  ">
                 Skills
             </h4>
@@ -19,7 +19,7 @@ const Skill = () => {
                         <img
                             src="https://i.ibb.co/jf7zF8d/html-5.png"
                             alt="css-3"
-                            width="80px"
+                            width="70px"
                             height="80px"
                             border="0"
                         />

@@ -21,7 +21,7 @@ const Testimonial = () => {
         },
     };
     return (
-        <section className="p-5 mt-10">
+        <section id="testimonials" className="p-5 mt-10">
             <h4 className="text-sm uppercase  text-left text-white  ">
                 Testimonials
             </h4>

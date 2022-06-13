@@ -30,7 +30,7 @@ const Works = () => {
         },
     };
     return (
-        <section className="p-5 mt-10">
+        <section id="portfolio" className="p-5 mt-10">
             <h4 className="text-sm uppercase  text-left text-white  ">
                 Portfolio
             </h4>

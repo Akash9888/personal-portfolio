@@ -4,7 +4,11 @@ const WorkCard = (props) => {
     console.log(props.data);
     const { link, name, about, tags, picture } = props.data;
     return (
-        <div class="card w-full lg:w-96 h-[580px] p-6 shadow-xl text-white text-justify bg-[#2d3538] ">
+        <div
+            class="card w-full lg:w-96 h-[580px] p-6 shadow-xl text-white text-justify bg-[#2d3538] "
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
             <img
                 src={picture}
                 alt=""

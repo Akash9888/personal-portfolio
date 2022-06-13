@@ -6,8 +6,9 @@ const Hero = () => {
         loop: {},
         onLoopDone: () => console.log(`loop completed after 3 runs.`),
     });
+
     return (
-        <section class="hero min-h-screen  ">
+        <section id="home" class="hero mt-2 lg:h-screen lg:m-0  ">
             <div class="hero-content text-center flex-col lg:flex-row lg:text-left">
                 <div
                     class="avatar"
@@ -27,21 +28,30 @@ const Hero = () => {
                     data-aos="fade-down"
                     data-aos-easing="linear"
                     data-aos-duration="1500">
-                    <h6 className="py-3 text-lg text-[#f2f2f2]">{text}</h6>
+                    <h1 class="text-4xl font-bold text-white">Hello,</h1>
+                    <h1 class="text-4xl font-bold text-white">My Name Is </h1>
                     <h1 class="text-4xl font-bold text-white">
                         Akash Chanda Tushar
                     </h1>
-                    <p class="py-5 text-[#f2f2f2]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Temporibus, ad.
-                    </p>
+                    <h6 className="py-3 text-lg text-[#f2f2f2]">{text}</h6>
+
+                    {/* <p class="py-5 text-[#f2f2f2]">
+                        Hello, I’m Akash Chanda Tushar, I'm a junior MERN Stack
+                        developer based on Sylhet, Bangladesh. I have a passion
+                        for web application and love to create for interactive
+                        applications for web and mobile devices.
+                    </p> */}
                     <div>
                         <button class="btn btn-outline btn-success mr-3">
-                            Download Resume
+                            <a
+                                href="https://drive.google.com/drive/u/0/folders/1tmNpaToaC7IrqZrdBwwiGhgWldiLlUsG"
+                                target="_blank">
+                                Download Resume
+                            </a>
                         </button>
-                        <button class="btn btn-outline btn-info">
+                        {/* <button class="btn btn-outline btn-info">
                             Contact
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>
