@@ -26,6 +26,11 @@ const Footer = () => {
                             Twitter
                         </a>
                     </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/Akash9888">
+                            Github
+                        </a>
+                    </li>
                 </ul>
                 <div className="flex flex-row pr-3 space-x-4 sm:space-x-8">
                     <p>

@@ -9,12 +9,12 @@ const Service = () => {
             <h1 className="text-xl lg:text-2xl uppercase font-bold text-left text-white mb-6 ">
                 What I Do
             </h1>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 text-white text-justify">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 text-white text-justify">
                 <div
                     className="flex justify-start items-start space-x-1"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
+                    data-aos-duration="800">
                     <div>
                         <img src="https://img.icons8.com/plasticine/100/undefined/web.png" />
                     </div>
@@ -30,7 +30,7 @@ const Service = () => {
                     className="flex justify-start items-start space-x-2"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
+                    data-aos-duration="800">
                     <div>
                         <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/100/undefined/external-mobile-application-computer-science-flaticons-lineal-color-flat-icons.png" />{" "}
                     </div>
@@ -49,7 +49,7 @@ const Service = () => {
                     className="flex justify-start items-start space-x-2"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
+                    data-aos-duration="800">
                     <div>
                         <img src="https://img.icons8.com/external-smashingstocks-outline-color-smashing-stocks/100/undefined/external-seo-seo-and-development-smashingstocks-outline-color-smashing-stocks.png" />{" "}
                     </div>

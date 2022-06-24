@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { HashLink } from "react-router-hash-link";
 
@@ -121,27 +122,27 @@ const Navigation = () => {
         // </nav>
 
         <nav className="bg-[#2d3538]">
-            <div class="container  w-full md:max-w-screen-xl  mx-auto  border-gray-200 px-2 sm:px-4 py-2.5 rounded text-white">
-                <div class="container flex flex-wrap justify-between items-center mx-auto">
-                    <a href="https://flowbite.com" class="flex items-center">
+            <div className="container  w-full md:max-w-screen-xl  mx-auto  border-gray-200 px-2 sm:px-4 py-2.5 rounded text-white">
+                <div className="container flex flex-wrap justify-between items-center mx-auto">
+                    <HashLink smooth to="#home" className="flex items-center">
                         {/* <img
                            src="/docs/images/logo.svg"
-                           class="mr-3 h-6 sm:h-9"
+                           className="mr-3 h-6 sm:h-9"
                            alt="Flowbite Logo"
                        /> */}
-                        <span class="self-center text-xl font-semibold whitespace-nowrap ">
+                        <span className="self-center text-xl font-semibold whitespace-nowrap ">
                             AKASH
                         </span>
-                    </a>
+                    </HashLink>
                     <button
                         data-collapse-toggle="mobile-menu"
                         type="button"
-                        class="inline-flex items-center p-2 ml-3 text-sm  rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        className="inline-flex items-center p-2 ml-3 text-sm  rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu"
                         aria-expanded="false">
-                        <span class="sr-only">Open main menu</span>
+                        <span className="sr-only">Open main menu</span>
                         <svg
-                            class={` ${openMenu ? "" : "hidden"} w-6 h-6`}
+                            className={` ${openMenu ? "" : "hidden"} w-6 h-6`}
                             fill="currentColor"
                             viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +153,7 @@ const Navigation = () => {
                                 clip-rule="evenodd"></path>
                         </svg>
                         <svg
-                            class={`w-6 h-6 ${openMenu ? "hidden" : ""}`}
+                            className={`w-6 h-6 ${openMenu ? "hidden" : ""}`}
                             fill="currentColor"
                             viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg"
@@ -164,15 +165,15 @@ const Navigation = () => {
                         </svg>
                     </button>
                     <div
-                        class={` ${
+                        className={` ${
                             openMenu ? "" : "hidden"
                         }hidden w-full md:block md:w-auto " id="mobile-menu`}>
-                        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium text-center">
+                        <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium text-center ">
                             <li>
                                 <HashLink
-                                    smooth
                                     to="#home"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    smooth
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Home
                                 </HashLink>
                             </li>
@@ -180,7 +181,7 @@ const Navigation = () => {
                                 <HashLink
                                     smooth
                                     to="#about"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     About
                                 </HashLink>
                             </li>
@@ -188,7 +189,7 @@ const Navigation = () => {
                                 <HashLink
                                     smooth
                                     to="#services"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Services
                                 </HashLink>
                             </li>
@@ -196,7 +197,7 @@ const Navigation = () => {
                                 <HashLink
                                     smooth
                                     to="#skills"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Skills
                                 </HashLink>
                             </li>
@@ -204,7 +205,7 @@ const Navigation = () => {
                                 <HashLink
                                     smooth
                                     to="#portfolio"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Portfolio
                                 </HashLink>
                             </li>
@@ -212,23 +213,22 @@ const Navigation = () => {
                                 <HashLink
                                     smooth
                                     to="#testimonials"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Testimonials
                                 </HashLink>
                             </li>
-                            <li>
-                                <HashLink
-                                    smooth
-                                    to="#blog"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                            {/* <li>
+                                <Link
+                                    to="/blog"
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Blog
-                                </HashLink>
-                            </li>
+                                </Link>
+                            </li> */}
                             <li>
                                 <HashLink
                                     smooth
                                     to="#contact"
-                                    class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+                                    className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 h md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
                                     Contact
                                 </HashLink>
                             </li>

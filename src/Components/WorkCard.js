@@ -5,10 +5,10 @@ const WorkCard = (props) => {
     const { link, name, about, tags, picture } = props.data;
     return (
         <div
-            class="card w-full lg:w-96 h-[580px] p-6 shadow-xl text-white text-justify bg-[#2d3538] "
+            className="card w-full lg:w-96 h-full p-6 shadow-xl text-white text-justify bg-[#2d3538] "
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="1500">
+            data-aos-duration="800">
             <img
                 src={picture}
                 alt=""
@@ -19,7 +19,7 @@ const WorkCard = (props) => {
                     return (
                         <div
                             key={i}
-                            class="badge badge-lg text-xs font-medium tracking-widest uppercase m-1 ml-0 p-3.5 bg-[#E03B8B]">
+                            className="badge badge-lg text-xs font-medium tracking-widest uppercase m-1 ml-0 p-3.5 bg-[#E03B8B]">
                             {tag}
                         </div>
                     );
@@ -31,7 +31,7 @@ const WorkCard = (props) => {
             </div>
             <p className="">{about}</p>
             <div className="text-center mt-2">
-                <button class="btn btn-outline btn-success mr-3">
+                <button className="btn btn-outline btn-success mr-3">
                     <a href={link}>View Site</a>
                 </button>
             </div>

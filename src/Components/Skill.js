@@ -1,6 +1,9 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 const Skill = () => {
+    const location = useLocation();
+    console.log(location);
     return (
         <section id="skills" className="p-6 mt-10">
             <h4 className="text-sm uppercase  text-left text-white  ">
@@ -9,13 +12,86 @@ const Skill = () => {
             <h1 className="text-xl lg:text-2xl uppercase font-bold text-left text-white mb-6 ">
                 SkillS I have
             </h1>
-            <div class="grid grid-cols-2 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 lg:grid-cols-5 gap-4">
                 <div
-                    class="card  bg-[#2d3538] shadow-xl"
+                    className="card  bg-[#2d3538] shadow-xl"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
+                        <img
+                            width="80px"
+                            height="80px"
+                            alt="svgImg"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBmaWxsPSIjNWQ0MDM3IiBkPSJNNDIsMTcuM0M0MiwzNy44LDI0LDQ0LDI0LDQ0UzYsMzcuOCw2LDE3LjNjMC0yLjUsMC4yLTQuNiwwLjQtNi4zYzAuMy0yLjUsMi00LjUsNC40LTUuMSBDMTMuOSw1LDE4LjgsNCwyNCw0czEwLjEsMSwxMy4zLDEuOWMyLjQsMC42LDQuMSwyLjcsNC40LDUuMUM0MS44LDEyLjcsNDIsMTQuOSw0MiwxNy4zeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Y2FmNTAiIGQ9Ik0yNCw3YzQuOSwwLDkuNSwxLDEyLjUsMS44YzEuMiwwLjMsMiwxLjMsMi4yLDIuNmMwLjIsMS45LDAuMywzLjksMC4zLDUuOWMwLDE1LjYtMTEuNSwyMS45LTE1LDIzLjQgYy0zLjUtMS42LTE1LTcuOS0xNS0yMy40YzAtMiwwLjEtNCwwLjMtNS45YzAuMS0xLjMsMS0yLjMsMi4yLTIuNkMxNC41LDgsMTkuMSw3LDI0LDcgTTI0LDRjLTUuMiwwLTEwLjEsMS0xMy4zLDEuOSBDOC40LDYuNSw2LjYsOC42LDYuNCwxMUM2LjIsMTIuNyw2LDE0LjksNiwxNy4zQzYsMzcuOCwyNCw0NCwyNCw0NHMxOC02LjIsMTgtMjYuN2MwLTIuNS0wLjItNC42LTAuNC02LjNjLTAuMy0yLjUtMi00LjUtNC40LTUuMSBDMzQuMSw1LDI5LjIsNCwyNCw0TDI0LDR6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2RjZWRjOCIgZD0iTTIzIDI4SDI1VjM2SDIzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Y2FmNTAiIGQ9Ik0yNCwxMGMwLDAtNiw1LTYsMTNjMCw1LjIsMy4zLDguNSw1LDEwbDEtM2wxLDNjMS43LTEuNSw1LTQuOCw1LTEwQzMwLDE1LDI0LDEwLDI0LDEweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4MWM3ODQiIGQ9Ik0yNCwxMGMwLDAtNiw1LTYsMTNjMCw1LjIsMy4zLDguNSw1LDEwbDEtM1YxMHoiPjwvcGF0aD48L3N2Zz4="
+                        />
+                    </div>
+                </div>
+                <div
+                    className="card  bg-[#2d3538] shadow-xl"
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
+                        <img
+                            width="80px"
+                            height="80px"
+                            alt="svgImg"
+                            src="https://i.ibb.co/JBmbKrp/expressjs.png"
+                        />
+                    </div>
+                </div>
+                <div
+                    className="card  bg-[#2d3538] shadow-xl"
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
+                        <img
+                            src="https://i.ibb.co/yY5TtH9/physics.png"
+                            alt="css-3"
+                            width="80px"
+                            height="80px"
+                            border="0"
+                        />
+                    </div>
+                </div>
+                <div
+                    className="card  bg-[#2d3538] shadow-xl"
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
+                        <img
+                            alt="svgImg"
+                            width="80px"
+                            height="80px"
+                            border="0"
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBmaWxsPSIjMjFhMzY2IiBkPSJNMjQuMDA3LDQ1LjQxOWMtMC41NzQsMC0xLjE0My0wLjE1LTEuNjQ2LTAuNDRsLTUuMjQtMy4xMDNjLTAuNzgzLTAuNDM4LTAuNDAxLTAuNTkzLTAuMTQzLTAuNjgyCWMxLjA0NC0wLjM2NSwxLjI1NS0wLjQ0OCwyLjM2OS0xLjA4MWMwLjExNy0wLjA2NywwLjI3LTAuMDQzLDAuMzksMC4wMjhsNC4wMjYsMi4zODljMC4xNDUsMC4wNzksMC4zNTIsMC4wNzksMC40ODYsMGwxNS42OTctOS4wNjEJYzAuMTQ1LTAuMDgzLDAuMjQtMC4yNTEsMC4yNC0wLjQyNFYxNC45MzJjMC0wLjE4MS0wLjA5NC0wLjM0Mi0wLjI0My0wLjQzMkwyNC4yNTMsNS40NDZjLTAuMTQ1LTAuMDg2LTAuMzM4LTAuMDg2LTAuNDgzLDAJTDguMDgyLDE0LjQ5OWMtMC4xNTIsMC4wODYtMC4yNDksMC4yNTUtMC4yNDksMC40Mjh2MTguMTE0YzAsMC4xNzMsMC4wOTQsMC4zMzgsMC4yNDQsMC40Mmw0LjI5OSwyLjQ4MwljMi4zMzQsMS4xNjcsMy43Ni0wLjIwOCwzLjc2LTEuNTkxVjE2LjQ3NmMwLTAuMjU1LDAuMi0wLjQ1MiwwLjQ1Ni0wLjQ1MmgxLjk4OGMwLjI0OCwwLDAuNDUyLDAuMTk2LDAuNDUyLDAuNDUydjE3Ljg4NgljMCwzLjExMi0xLjY5Nyw0LjktNC42NDgsNC45Yy0wLjkwOCwwLTEuNjIzLDAtMy42MTktMC45ODJsLTQuMTE4LTIuMzczQzUuNjI5LDM1LjMxNyw1LDM0LjIxNiw1LDMzLjA0MlYxNC45MjgJYzAtMS4xNzksMC42MjktMi4yNzksMS42NDYtMi44NjFMMjIuMzYsMy4wMDJjMC45OTQtMC41NjIsMi4zMTQtMC41NjIsMy4zMDEsMGwxNS42OTQsOS4wNjlDNDIuMzY3LDEyLjY1Niw0MywxMy43NTMsNDMsMTQuOTMyCXYxOC4xMTRjMCwxLjE3NS0wLjYzMywyLjI3MS0xLjY0NiwyLjg2MUwyNS42Niw0NC45NzFjLTAuNTAzLDAuMjkxLTEuMDczLDAuNDQtMS42NTQsMC40NCI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyMWEzNjYiIGQ9Ik0yOC44NTYsMzIuOTM3Yy02Ljg2OCwwLTguMzA4LTMuMTUzLTguMzA4LTUuNzk3YzAtMC4yNTEsMC4yMDMtMC40NTIsMC40NTUtMC40NTJoMi4wMjgJYzAuMjI0LDAsMC40MTMsMC4xNjMsMC40NDgsMC4zODRjMC4zMDYsMi4wNjYsMS4yMTgsMy4xMDgsNS4zNzEsMy4xMDhjMy4zMDgsMCw0LjcxNS0wLjc0Nyw0LjcxNS0yLjUwMgljMC0xLjAxLTAuNDAxLTEuNzYtNS41NC0yLjI2M2MtNC4yOTktMC40MjQtNi45NTUtMS4zNzEtNi45NTUtNC44MDljMC0zLjE2NywyLjY3Mi01LjA1Myw3LjE0Ny01LjA1MwljNS4wMjYsMCw3LjUxNywxLjc0NSw3LjgzMSw1LjQ5M2MwLjAxMiwwLjEzLTAuMDM1LDAuMjU1LTAuMTIyLDAuMzVjLTAuMDg2LDAuMDktMC4yMDgsMC4xNDUtMC4zMzQsMC4xNDVoLTIuMDM5CWMtMC4yMTIsMC0wLjM5Ny0wLjE0OS0wLjQ0LTAuMzU0Yy0wLjQ5MS0yLjE3My0xLjY3OC0yLjg2OC00LjkwNC0yLjg2OGMtMy42MTEsMC00LjAzMSwxLjI1Ny00LjAzMSwyLjIJYzAsMS4xNDMsMC40OTUsMS40NzcsNS4zNjcsMi4xMjJjNC44MjUsMC42NCw3LjExNiwxLjU0NCw3LjExNiw0LjkzNWMwLDMuNDE4LTIuODUzLDUuMzc5LTcuODI3LDUuMzc5Ij48L3BhdGg+PC9zdmc+"
+                        />
+                    </div>
+                </div>
+                <div
+                    className="card  bg-[#2d3538] shadow-xl"
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
+                        <img
+                            src="https://i.ibb.co/x5tp11p/js.png"
+                            alt="css-3"
+                            width="80px"
+                            height="80px"
+                            border="0"
+                        />
+                    </div>
+                </div>
+                <div
+                    className="card  bg-[#2d3538] shadow-xl"
+                    data-aos="zoom-in"
+                    data-aos-easing="linear"
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
                         <img
                             src="https://i.ibb.co/jf7zF8d/html-5.png"
                             alt="css-3"
@@ -27,11 +103,11 @@ const Skill = () => {
                 </div>
 
                 <div
-                    class="card  bg-[#2d3538] shadow-xl"
+                    className="card  bg-[#2d3538] shadow-xl"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
                         <img
                             alt="svgImg"
                             width="80px"
@@ -42,11 +118,11 @@ const Skill = () => {
                     </div>
                 </div>
                 <div
-                    class="card  bg-[#2d3538] shadow-xl"
+                    className="card  bg-[#2d3538] shadow-xl"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
                         <img
                             alt="svgImg"
                             width="80px"
@@ -57,11 +133,11 @@ const Skill = () => {
                     </div>
                 </div>
                 <div
-                    class="card  bg-[#2d3538] shadow-xl"
+                    className="card  bg-[#2d3538] shadow-xl"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
                         <img
                             alt="svgImg"
                             width="80px"
@@ -72,91 +148,17 @@ const Skill = () => {
                     </div>
                 </div>
                 <div
-                    class="card  bg-[#2d3538] shadow-xl"
+                    className="card  bg-[#2d3538] shadow-xl"
                     data-aos="zoom-in"
                     data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
+                    data-aos-duration="800">
+                    <div className="card-body m-auto my-0">
                         <img
                             alt="svgImg"
                             width="80px"
                             height="80px"
                             border="0"
                             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBmaWxsPSIjZmY4ZjAwIiBkPSJNOCwzN0wyMy4yMzQsOC40MzZjMC4zMjEtMC42MDIsMS4xODktMC41OTEsMS40OTQsMC4wMkwzMCwxOUw4LDM3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZmEwMDAiIGQ9Ik04LDM2Ljk5Mmw1LjU0Ni0zNC4xOTljMC4xNDUtMC44OTUsMS4zNDctMS4wODksMS43NjctMC4yODVMMjYsMjIuOTkyTDgsMzYuOTkyeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiNmZjZmMDAiIGQ9Ik04LjAwOCAzNi45ODZMOC4yMDggMzYuODI5IDI1LjczNyAyMi40ODggMjAuNzkzIDEzLjAxMnoiPjwvcGF0aD48cGF0aCBmaWxsPSIjZmZjNDAwIiBkPSJNOCwzN2wyNi42NjYtMjUuNzEzYzAuNTU5LTAuNTM5LDEuNDkyLTAuMjIxLDEuNjA2LDAuNTQ3TDQwLDM3bC0xNSw4Ljc0MyBjLTAuNjA5LDAuMzQyLTEuMzUyLDAuMzQyLTEuOTYxLDBMOCwzN3oiPjwvcGF0aD48L3N2Zz4="
-                        />
-                    </div>
-                </div>
-                <div
-                    class="card  bg-[#2d3538] shadow-xl"
-                    data-aos="zoom-in"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
-                        <img
-                            src="https://i.ibb.co/x5tp11p/js.png"
-                            alt="css-3"
-                            width="80px"
-                            height="80px"
-                            border="0"
-                        />
-                    </div>
-                </div>
-
-                <div
-                    class="card  bg-[#2d3538] shadow-xl"
-                    data-aos="zoom-in"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
-                        <img
-                            width="80px"
-                            height="80px"
-                            alt="svgImg"
-                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBmaWxsPSIjNWQ0MDM3IiBkPSJNNDIsMTcuM0M0MiwzNy44LDI0LDQ0LDI0LDQ0UzYsMzcuOCw2LDE3LjNjMC0yLjUsMC4yLTQuNiwwLjQtNi4zYzAuMy0yLjUsMi00LjUsNC40LTUuMSBDMTMuOSw1LDE4LjgsNCwyNCw0czEwLjEsMSwxMy4zLDEuOWMyLjQsMC42LDQuMSwyLjcsNC40LDUuMUM0MS44LDEyLjcsNDIsMTQuOSw0MiwxNy4zeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Y2FmNTAiIGQ9Ik0yNCw3YzQuOSwwLDkuNSwxLDEyLjUsMS44YzEuMiwwLjMsMiwxLjMsMi4yLDIuNmMwLjIsMS45LDAuMywzLjksMC4zLDUuOWMwLDE1LjYtMTEuNSwyMS45LTE1LDIzLjQgYy0zLjUtMS42LTE1LTcuOS0xNS0yMy40YzAtMiwwLjEtNCwwLjMtNS45YzAuMS0xLjMsMS0yLjMsMi4yLTIuNkMxNC41LDgsMTkuMSw3LDI0LDcgTTI0LDRjLTUuMiwwLTEwLjEsMS0xMy4zLDEuOSBDOC40LDYuNSw2LjYsOC42LDYuNCwxMUM2LjIsMTIuNyw2LDE0LjksNiwxNy4zQzYsMzcuOCwyNCw0NCwyNCw0NHMxOC02LjIsMTgtMjYuN2MwLTIuNS0wLjItNC42LTAuNC02LjNjLTAuMy0yLjUtMi00LjUtNC40LTUuMSBDMzQuMSw1LDI5LjIsNCwyNCw0TDI0LDR6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2RjZWRjOCIgZD0iTTIzIDI4SDI1VjM2SDIzeiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM0Y2FmNTAiIGQ9Ik0yNCwxMGMwLDAtNiw1LTYsMTNjMCw1LjIsMy4zLDguNSw1LDEwbDEtM2wxLDNjMS43LTEuNSw1LTQuOCw1LTEwQzMwLDE1LDI0LDEwLDI0LDEweiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4MWM3ODQiIGQ9Ik0yNCwxMGMwLDAtNiw1LTYsMTNjMCw1LjIsMy4zLDguNSw1LDEwbDEtM1YxMHoiPjwvcGF0aD48L3N2Zz4="
-                        />
-                    </div>
-                </div>
-                <div
-                    class="card  bg-[#2d3538] shadow-xl"
-                    data-aos="zoom-in"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
-                        <img
-                            width="80px"
-                            height="80px"
-                            alt="svgImg"
-                            src="https://i.ibb.co/JBmbKrp/expressjs.png"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="card  bg-[#2d3538] shadow-xl"
-                    data-aos="zoom-in"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
-                        <img
-                            src="https://i.ibb.co/yY5TtH9/physics.png"
-                            alt="css-3"
-                            width="80px"
-                            height="80px"
-                            border="0"
-                        />
-                    </div>
-                </div>
-                <div
-                    class="card  bg-[#2d3538] shadow-xl"
-                    data-aos="zoom-in"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500">
-                    <div class="card-body m-auto my-0">
-                        <img
-                            alt="svgImg"
-                            width="80px"
-                            height="80px"
-                            border="0"
-                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iOTYiIGhlaWdodD0iOTYiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiN1bmRlZmluZWQ7Ij48cGF0aCBmaWxsPSIjMjFhMzY2IiBkPSJNMjQuMDA3LDQ1LjQxOWMtMC41NzQsMC0xLjE0My0wLjE1LTEuNjQ2LTAuNDRsLTUuMjQtMy4xMDNjLTAuNzgzLTAuNDM4LTAuNDAxLTAuNTkzLTAuMTQzLTAuNjgyCWMxLjA0NC0wLjM2NSwxLjI1NS0wLjQ0OCwyLjM2OS0xLjA4MWMwLjExNy0wLjA2NywwLjI3LTAuMDQzLDAuMzksMC4wMjhsNC4wMjYsMi4zODljMC4xNDUsMC4wNzksMC4zNTIsMC4wNzksMC40ODYsMGwxNS42OTctOS4wNjEJYzAuMTQ1LTAuMDgzLDAuMjQtMC4yNTEsMC4yNC0wLjQyNFYxNC45MzJjMC0wLjE4MS0wLjA5NC0wLjM0Mi0wLjI0My0wLjQzMkwyNC4yNTMsNS40NDZjLTAuMTQ1LTAuMDg2LTAuMzM4LTAuMDg2LTAuNDgzLDAJTDguMDgyLDE0LjQ5OWMtMC4xNTIsMC4wODYtMC4yNDksMC4yNTUtMC4yNDksMC40Mjh2MTguMTE0YzAsMC4xNzMsMC4wOTQsMC4zMzgsMC4yNDQsMC40Mmw0LjI5OSwyLjQ4MwljMi4zMzQsMS4xNjcsMy43Ni0wLjIwOCwzLjc2LTEuNTkxVjE2LjQ3NmMwLTAuMjU1LDAuMi0wLjQ1MiwwLjQ1Ni0wLjQ1MmgxLjk4OGMwLjI0OCwwLDAuNDUyLDAuMTk2LDAuNDUyLDAuNDUydjE3Ljg4NgljMCwzLjExMi0xLjY5Nyw0LjktNC42NDgsNC45Yy0wLjkwOCwwLTEuNjIzLDAtMy42MTktMC45ODJsLTQuMTE4LTIuMzczQzUuNjI5LDM1LjMxNyw1LDM0LjIxNiw1LDMzLjA0MlYxNC45MjgJYzAtMS4xNzksMC42MjktMi4yNzksMS42NDYtMi44NjFMMjIuMzYsMy4wMDJjMC45OTQtMC41NjIsMi4zMTQtMC41NjIsMy4zMDEsMGwxNS42OTQsOS4wNjlDNDIuMzY3LDEyLjY1Niw0MywxMy43NTMsNDMsMTQuOTMyCXYxOC4xMTRjMCwxLjE3NS0wLjYzMywyLjI3MS0xLjY0NiwyLjg2MUwyNS42Niw0NC45NzFjLTAuNTAzLDAuMjkxLTEuMDczLDAuNDQtMS42NTQsMC40NCI+PC9wYXRoPjxwYXRoIGZpbGw9IiMyMWEzNjYiIGQ9Ik0yOC44NTYsMzIuOTM3Yy02Ljg2OCwwLTguMzA4LTMuMTUzLTguMzA4LTUuNzk3YzAtMC4yNTEsMC4yMDMtMC40NTIsMC40NTUtMC40NTJoMi4wMjgJYzAuMjI0LDAsMC40MTMsMC4xNjMsMC40NDgsMC4zODRjMC4zMDYsMi4wNjYsMS4yMTgsMy4xMDgsNS4zNzEsMy4xMDhjMy4zMDgsMCw0LjcxNS0wLjc0Nyw0LjcxNS0yLjUwMgljMC0xLjAxLTAuNDAxLTEuNzYtNS41NC0yLjI2M2MtNC4yOTktMC40MjQtNi45NTUtMS4zNzEtNi45NTUtNC44MDljMC0zLjE2NywyLjY3Mi01LjA1Myw3LjE0Ny01LjA1MwljNS4wMjYsMCw3LjUxNywxLjc0NSw3LjgzMSw1LjQ5M2MwLjAxMiwwLjEzLTAuMDM1LDAuMjU1LTAuMTIyLDAuMzVjLTAuMDg2LDAuMDktMC4yMDgsMC4xNDUtMC4zMzQsMC4xNDVoLTIuMDM5CWMtMC4yMTIsMC0wLjM5Ny0wLjE0OS0wLjQ0LTAuMzU0Yy0wLjQ5MS0yLjE3My0xLjY3OC0yLjg2OC00LjkwNC0yLjg2OGMtMy42MTEsMC00LjAzMSwxLjI1Ny00LjAzMSwyLjIJYzAsMS4xNDMsMC40OTUsMS40NzcsNS4zNjcsMi4xMjJjNC44MjUsMC42NCw3LjExNiwxLjU0NCw3LjExNiw0LjkzNWMwLDMuNDE4LTIuODUzLDUuMzc5LTcuODI3LDUuMzc5Ij48L3BhdGg+PC9zdmc+"
                         />
                     </div>
                 </div>

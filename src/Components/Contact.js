@@ -57,7 +57,7 @@ const Contact = () => {
                 className="grid  grid-cols-1   lg:px-8 md:grid-cols-2 md:divide-x"
                 data-aos="zoom-in"
                 data-aos-easing="linear"
-                data-aos-duration="1500">
+                data-aos-duration="800">
                 <div className="py-6 md:py-0 md:px-6">
                     <h1 className="text-4xl font-bold">Say Hello!</h1>
                     <p className="pt-2 pb-4">
@@ -145,7 +145,7 @@ const Contact = () => {
                     <div className="text-center">
                         <button
                             type="submit"
-                            class="btn btn-outline btn-success ">
+                            className="btn btn-outline btn-success ">
                             Submit
                         </button>
                     </div>

@@ -42,6 +42,15 @@ const Works = () => {
                     return <WorkCard key={work.index} data={work} />;
                 })}
             </Carousel>
+            {/* <div className="mt-5 text-center">
+                <button className="btn btn-outline btn-success mr-3">
+                    <a
+                        href="https://drive.google.com/drive/u/0/folders/1tmNpaToaC7IrqZrdBwwiGhgWldiLlUsG"
+                        target="_blank">
+                        View All Projects
+                    </a>
+                </button>
+            </div> */}
         </section>
     );
 };
